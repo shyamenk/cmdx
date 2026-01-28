@@ -1,0 +1,29 @@
+[package]
+name = "cmdx"
+version = "0.1.0"
+edition = "2021"
+authors = ["shyamenk"]
+description = "CLI command memory manager - your command memory, without memorization"
+license = "MIT"
+repository = "https://github.com/shyamenk/cmdx"
+keywords = ["cli", "commands", "productivity", "dotfiles"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+clap_complete = "4"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+toml = "0.8"
+dirs = "5"
+colored = "2"
+fuzzy-matcher = "0.3"
+thiserror = "1"
+shellexpand = "3"
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true
