@@ -1,16 +1,31 @@
 # cmdx
 
 <p align="center">
-  <a href="https://github.com/shyamenk/cmdx/stargazers"><img src="https://img.shields.io/github/stars/shyamenk/cmdx?style=for-the-badge&logo=github&color=yellow" alt="Stars"></a>
-  <a href="https://github.com/shyamenk/cmdx/network/members"><img src="https://img.shields.io/github/forks/shyamenk/cmdx?style=for-the-badge&logo=github&color=blue" alt="Forks"></a>
-  <a href="https://github.com/shyamenk/cmdx/issues"><img src="https://img.shields.io/github/issues/shyamenk/cmdx?style=for-the-badge&logo=github&color=red" alt="Issues"></a>
-  <a href="https://github.com/shyamenk/cmdx/blob/main/LICENSE"><img src="https://img.shields.io/github/license/shyamenk/cmdx?style=for-the-badge&color=green" alt="License"></a>
+  <a href="https://github.com/shyamenk/cmdx/stargazers">
+    <img src="https://img.shields.io/github/stars/shyamenk/cmdx?style=for-the-badge&logo=github&color=yellow" alt="Stars">
+  </a>&nbsp;&nbsp;
+  <a href="https://github.com/shyamenk/cmdx/network/members">
+    <img src="https://img.shields.io/github/forks/shyamenk/cmdx?style=for-the-badge&logo=github&color=blue" alt="Forks">
+  </a>&nbsp;&nbsp;
+  <a href="https://github.com/shyamenk/cmdx/issues">
+    <img src="https://img.shields.io/github/issues/shyamenk/cmdx?style=for-the-badge&logo=github&color=red" alt="Issues">
+  </a>&nbsp;&nbsp;
+  <a href="https://github.com/shyamenk/cmdx/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/shyamenk/cmdx?style=for-the-badge&color=green" alt="License">
+  </a>
 </p>
 
+<br />
+
 <p align="center">
-  <a href="https://github.com/shyamenk/cmdx/commits/main"><img src="https://img.shields.io/github/last-commit/shyamenk/cmdx?style=for-the-badge&logo=github" alt="Last Commit"></a>
-  <a href="https://www.rust-lang.org/"><img src="https://img.shields.io/badge/Rust-1.70+-orange?style=for-the-badge&logo=rust&logoColor=white" alt="Rust"></a>
+  <a href="https://github.com/shyamenk/cmdx/commits/main">
+    <img src="https://img.shields.io/github/last-commit/shyamenk/cmdx?style=for-the-badge&logo=github" alt="Last Commit">
+  </a>&nbsp;&nbsp;
+  <a href="https://www.rust-lang.org/">
+    <img src="https://img.shields.io/badge/Rust-1.70+-orange?style=for-the-badge&logo=rust&logoColor=white" alt="Rust">
+  </a>
 </p>
+
 
 > Your command memory, without memorization.
 
