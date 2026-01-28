@@ -1,5 +1,12 @@
 # cmdx
 
+[![GitHub stars](https://img.shields.io/github/stars/shyamenk/cmdx?style=flat-square&logo=github)](https://github.com/shyamenk/cmdx/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/shyamenk/cmdx?style=flat-square&logo=github)](https://github.com/shyamenk/cmdx/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/shyamenk/cmdx?style=flat-square&logo=github)](https://github.com/shyamenk/cmdx/issues)
+[![GitHub license](https://img.shields.io/github/license/shyamenk/cmdx?style=flat-square)](https://github.com/shyamenk/cmdx/blob/main/LICENSE)
+[![GitHub last commit](https://img.shields.io/github/last-commit/shyamenk/cmdx?style=flat-square&logo=github)](https://github.com/shyamenk/cmdx/commits/main)
+[![Rust](https://img.shields.io/badge/rust-1.70%2B-orange?style=flat-square&logo=rust)](https://www.rust-lang.org/)
+
 > Your command memory, without memorization.
 
 A CLI-first command memory manager that lets you save, organize, and quickly recall commands you use frequently. Inspired by [pass](https://www.passwordstore.org/).
