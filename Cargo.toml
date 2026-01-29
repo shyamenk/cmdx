@@ -20,6 +20,8 @@ colored = "2"
 fuzzy-matcher = "0.3"
 thiserror = "1"
 shellexpand = "3"
+ratatui = "0.28"
+crossterm = "0.28"
 
 [profile.release]
 opt-level = "z"

@@ -36,7 +36,7 @@ pub fn exec(query: String) -> Result<()> {
     Ok(())
 }
 
-fn copy_to_clipboard(text: &str, tool: &str) -> bool {
+pub fn copy_to_clipboard(text: &str, tool: &str) -> bool {
     match tool {
         "wl-copy" => try_wl_copy(text),
         "xclip" => try_xclip(text),

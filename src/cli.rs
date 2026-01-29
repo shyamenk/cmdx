@@ -289,4 +289,25 @@ SUPPORTED SHELLS:
         #[arg(value_enum)]
         shell: Shell,
     },
+
+    /// Interactive fuzzy finder (Telescope-style)
+    #[command(visible_alias = "s")]
+    #[command(long_about = "\
+Interactive fuzzy finder for commands.
+
+Opens a Telescope-style TUI picker with live fuzzy search, arrow key navigation,
+and Enter to copy the selected command to clipboard.
+
+KEYBINDINGS:
+    Type           Filter commands live
+    Up/Down        Navigate results
+    Ctrl+k/j       Navigate results (vim-style)
+    Tab/Shift+Tab  Navigate results
+    Enter          Select and copy to clipboard
+    Esc/Ctrl+c     Cancel
+
+EXAMPLES:
+    cmdx pick      # Open interactive picker
+    cmdx s         # Same as above (alias)")]
+    Pick,
 }

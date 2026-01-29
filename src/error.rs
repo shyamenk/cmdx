@@ -26,6 +26,9 @@ pub enum CmdxError {
 
     #[error("Command execution failed: {0}")]
     Execution(String),
+
+    #[error("TUI error: {0}")]
+    Tui(String),
 }
 
 pub type Result<T> = std::result::Result<T, CmdxError>;

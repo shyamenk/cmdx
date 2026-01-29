@@ -4,6 +4,7 @@ mod commands;
 mod config;
 mod error;
 mod store;
+mod tui;
 
 use clap::Parser;
 use cli::{Cli, Commands};
@@ -37,6 +38,7 @@ fn main() -> ExitCode {
             Cli::generate_completion(shell);
             Ok(())
         }
+        Some(Commands::Pick) => commands::pick(),
         None => {
             // Direct path access: cmdx docker/prune
             match cli.path {
